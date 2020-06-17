@@ -1,0 +1,3 @@
+als user möchte ich etwas in die liste eintragen, damit es da steht und ich daran erinnert werde, dass ich es noch erledigen muss
+
+als user möchte ich etwas in der liste abhaken und deutlich sehen, dass es erledigt ist

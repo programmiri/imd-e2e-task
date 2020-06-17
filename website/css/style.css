@@ -1,0 +1,45 @@
+.testi {
+  color: red;
+  background-color: green;
+}
+
+body {
+  font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+}
+
+h1 {
+  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+  font-size:  3em;
+}
+
+#todo-list {
+  list-style: none;
+  padding-left: 10px;
+}
+
+input[type=checkbox]:checked + label {
+text-decoration: line-through;
+color: #999;
+}
+
+#add-todo label {
+  display: none;
+}
+
+.delete-x {
+  padding-left: 5px;
+  font-size: 0.8em;
+  color: red;
+}
+
+.delete-x:hover {
+  font-weight: bold;
+  font-size: 1em;
+  cursor: pointer;
+}
+
+.delete-x:hover:after {
+  font-weight: normal;
+  font-size: 0.8em;
+  content: ' delete this task';
+}
