@@ -3,7 +3,6 @@
   "version": "0.0.1",
   "description": "Setup vor end-to-end task.",
   "scripts": {
-    "cypress:run": "yarn run cypress run",
     "cypress:open": "yarn run cypress open",
     "start": "node server.js"
 

@@ -1,10 +1,6 @@
-// Noch mal mit Jquery so viel wie geht
-// Todo List as array
 var todoList = [];
 
-// Each Todo is an object
-function Todo(description, index){
-  // Todo.prototype
+function Todo(description, index) {
   this.description = description;
   this.id = description.toLowerCase().slice(0, 10).replace(' ', '-') + index;
   this.completed = false;
@@ -64,7 +60,6 @@ function buildDeleteButtonTag(todo, todoList) {
   return deleteButton;
 }
 
-//auseinanderziehen mit wenig übergeben
 function addTodoToHtmlList(todo, todoList) {
   var ul = document.querySelectorAll('ul#todo-list')[0];
   var li = document.createElement('li');
@@ -79,7 +74,6 @@ function addTodoToHtmlList(todo, todoList) {
   ul.appendChild(li);
 }
 
-// Events!
 document.forms.namedItem('add-todo').addEventListener('submit', function(e) {
   e.preventDefault();
   var text = document.forms.namedItem('add-todo').elements.namedItem('todo-input').value;
@@ -87,4 +81,8 @@ document.forms.namedItem('add-todo').addEventListener('submit', function(e) {
   todoList.push(todo);
   addTodoToHtmlList(todo, todoList);
   document.forms.namedItem('add-todo').elements.namedItem('todo-input').value = '';
+});
+
+document.addEventListener("DOMContentLoaded", function(){
+console.log('hello')
 });
