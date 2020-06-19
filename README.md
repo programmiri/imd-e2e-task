@@ -6,8 +6,8 @@
 
 ## Tests laufen lassen
 
-- __wichtig__ - ihr müsst erst `yarn run start` laufen lassen und diesen Prozess in einem eigenen Fenster aktiv lassen. Das öffnet die Seite auf dem localhost.
-- `cypress:open` öffnet das Cypres Dashboard mit einer Übersicht an Tests, die bereits angelegt sind. 
+- __wichtig__ - ihr müsst erst `yarn run start` oder `npm run start` laufen lassen und diesen Prozess in einem eigenen Fenster aktiv lassen. Das öffnet die Seite auf dem localhost.
+- `cypress:open` oder `npm run cypress:open` öffnet das Cypres Dashboard mit einer Übersicht an Tests, die bereits angelegt sind. 
 
 ## Erklärung Dashboard
 
